@@ -1,0 +1,39 @@
+.detailDesWrap h2 {
+  color: var(--colorRedLight);
+
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.detailDesWrap p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.detailDesWrap img {
+  float: right;
+  margin: 5px;
+}
+
+@media (min-width: 1536px) {
+  .detailDesWrap h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .detailDesWrap p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .detailDesWrap img {
+    float: unset;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}

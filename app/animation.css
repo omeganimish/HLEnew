@@ -1,0 +1,58 @@
+.animationBottom {
+  animation: moveBottom 0.5s ease-in;
+}
+
+@keyframes moveBottom {
+  from {
+    transform: translateY(70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animationUp {
+  animation: moveUp 0.5s ease-in;
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animationLeft {
+  animation: moveLeft 0.5s ease-in;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(-70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.animationRight {
+  animation: moveRight 0.5s ease-in;
+}
+
+@keyframes moveRight {
+  from {
+    transform: translateX(70%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
