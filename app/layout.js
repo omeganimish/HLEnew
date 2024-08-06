@@ -18,6 +18,12 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={montserrat.className}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="kHpG6pSuURnAiXVrsSWn-SdxRmwfNrczdE1PqjiGDgk"
+        />
+      </head>
       <body>
         {children}
         <GtagScript />
