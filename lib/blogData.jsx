@@ -4,6 +4,155 @@ import Link from "next/link";
 export const blogData = [
   {
     authorName: "Moses Ndep Mbeku",
+    updateDate: "Tue July 09 2024",
+    title: "The Ultimate Guide to Building a Home Workout Routine",
+    featureImage:
+      "/assets/The Ultimate Guide to Building a Home Workout Routine.png",
+    url: "the-ultimate-guide-to-building-a-home-workout-routine",
+    SubDescription:
+      "Exercising from the house could be inspiring and productive in starting a new routine of exercising. However, if a person tries very hard to invent a schedule with the help of a special trainer, the account will be quite appropriate for",
+    description: (
+      <>
+        <ul>
+          <li>
+            <p>
+              <span>
+                <b>1. Exercising from the house: </b>
+              </span>
+              Exercising from the house could be inspiring and productive in
+              starting a new routine of exercising. However, if a person tries
+              very hard to invent a schedule with the help of a special trainer,
+              the account will be quite appropriate for a given individual and
+              much beneficial for reaching the aims set in the sphere of
+              fitness. Here&apos;s your ultimate guide to building an effective
+              home workout routine:Below is the complete home workout guide you
+              can use to easily develop the right workout plan.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>
+                <b>2. Set Your Goals:</b>
+              </span>
+              First of all, one should understand what type of fitness he or she
+              will have before moving on with any type of fitness practice.
+              However for every goal and every program, you have objectives- be
+              it for weight loss, body building, flexibility training or just a
+              healthy living, your objectives will determine the exercises you
+              are going to be doing and how intensive your exercise will be.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>
+                <b>3. Assess Your Space and Equipment: </b>
+              </span>
+              Moving to the next level, there is a need to define the area and
+              the amount of space and any tools you you are ready to allocate in
+              this process together with any equipment you have. Ideally, it is
+              not even required to have one, at the bare minimum just dumbbells,
+              bands, and a mat would be sufficient. Regarding the possibilities
+              of exercising with limited space and/or fewer exercising machines,
+              be very versatile and accommodating, regarding these two factors.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>
+                <b>4. Choose Your Exercises: </b>
+              </span>
+              Select the activities which expend force on distinct muscles as
+              well as all elements of fitness for cardiovascular, muscle toning,
+              flexibility, and balance. Some of the calisthenics exercises
+              include squats, push-ups, lunges, plum and the like that can be
+              great workouts than with equipment.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>
+                <b>5. Create a Schedule: </b>
+              </span>
+              Decide on picking a normal training schedule that you think will
+              be appropriate depending on the daily timetable and flexibility.
+              Irrespective of whether people have a early morning exercise
+              regime so as to kick start the day or evening sessions to carry
+              out before getting to bed what that is required is some form of
+              exercise. They should attempt to have between twenty and thirty
+              minutes where they’ve done moderate exercise at least five of the
+              seven days of the week.
+            </p>
+          </li>
+        </ul>
+
+        <p>
+          <b>Warm-Up and Cool Down:</b> Make sure you do some stretching or some
+          form of warm-up prior to performing some activity and also perform
+          cool down exercises because these prevent muscle pull. As a rule, it
+          is recommended to begin each session of exercises with warm up like
+          stretching exercises or low-intensity aerobics that should not be less
+          than 5 minutes. To aid it regain some of its losses, engages in static
+          stretching exercises as this will help relieve the tension on the
+          muscles and also bring the body temperature to normal.
+        </p>
+
+        <p>
+          <b>Progression and Variation: </b>When you begin with exercising at
+          home, strive to raised the standard slightly so the next time the
+          intensity, duration , or the actions involved are a tad challenging.
+          They should also apply more progressive overload principles so as to
+          have new stimulus for actual muscle development.
+        </p>
+        <p>
+          <b>Listen to Your Body: </b>Of course there are guidelines which must
+          be followed so that you do not get out of practice or rather
+          discouraged from practicing more because of the feeling of pains all
+          over the body after exercising. In some instances one can develop
+          muscle pulls and still feel a muscle pulse but in cases of too much
+          pain do not attempt to continue. It is important to step back from
+          training and development programs occasionally and concentrate on
+          balance as a way of preventing some negative aspects of training.
+        </p>
+        <p>
+          <b>Stay Motivated: </b>The goals should be set such that they will
+          provide direction to the person and he/she should be capable of
+          self-supervising himself to make sure that he/she is adhering to the
+          plan and is on the right track to achieve the set aim. There is always
+          the option of finding a workout buddy, joining groups or pages on
+          social media with a focus on fitness or find readings on stories from
+          other fitness freaks in case one feels unmotivated.
+        </p>
+        <p>
+          <b>Stay Flexible: </b>No matter how ideal the schedule is as a guide,
+          it is always handy to have the schedule flexible just in case life
+          intervences. To address the first concern, it is important to attend
+          the sessions as scheduled; but if a session is missed or if one has to
+          make some necessary changes to the workout – for time, and other
+          encumbrances, then do not worry as long as one is consistent.
+        </p>
+        <p>
+          <b>Seek Professional Guidance: </b>If you are confused where to start
+          or on how to exercise without aggravating your pain, then you may need
+          to consult a certified personal trainer or other exercise
+          professional. Everyone can provide directions on how to exercise in
+          sometimes special recommendations, recommendations, and individual
+          lessons that will help achieve the desired result in the shortest
+          amount of time possible.
+        </p>
+        <p>
+          About all that you need to know to get into the swimming pool and
+          start your home workout schedule properly has been outlined above. And
+          it is vital to remember that the goal is not to give one shot
+          solutions, but to implement changes that will occur on a day-to-day
+          basis. Enjoy planning for a new better version of you and appreciate
+          the improvement that comes with every day.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    authorName: "Moses Ndep Mbeku",
     updateDate: "Tue July 07 2024",
     title: "10 Simple Tips for Eating Clean and Feeling Great",
     featureImage: "/assets/10-inner.png",
