@@ -38,7 +38,7 @@ const FreeBook = () => {
             <div className="mt-10 flex justify-center">
               <CTAbutton
                 text={"Download Meal Plan"}
-                link={"https://www.healthylifestyleedge.com/weightlossmealplan"}
+                link={"https://mbekundep.systeme.io/weightlossmealplan"}
               />
             </div>
           </div>
