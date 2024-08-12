@@ -74,9 +74,7 @@ const WeightLoss = () => {
               <div className="mt-6">
                 <CTAbutton
                   text={"Download Meal Plan"}
-                  link={
-                    "https://www.healthylifestyleedge.com/weightlossmealplan"
-                  }
+                  link={"https://mbekundep.systeme.io/weightlossmealplan"}
                 />
               </div>
             </div>
