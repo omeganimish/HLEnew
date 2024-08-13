@@ -5,6 +5,8 @@ export const blogData = [
   {
     authorName: "Moses Ndep Mbeku",
     updateDate: "Tue July 09 2024",
+    metaDes:
+      "Ready to start a home workout routine? Our ultimate guide offers practical tips on setting goals, choosing exercises, creating a schedule, and staying motivated. Learn how to effectively assess your space, use minimal equipment, and make adjustments to achieve your fitness goals from the comfort of home.",
     title: "The Ultimate Guide to Building a Home Workout Routine",
     featureImage:
       "/assets/The Ultimate Guide to Building a Home Workout Routine.png",
@@ -154,6 +156,8 @@ export const blogData = [
   {
     authorName: "Moses Ndep Mbeku",
     updateDate: "Tue July 07 2024",
+    metaDes:
+      "Discover 10 easy tips for eating clean and feeling great! Learn how to incorporate whole foods, stay hydrated, and practice mindful eating to boost your energy, mood, and overall well-being. Start making simple changes today for a healthier, happier you.",
     title: "10 Simple Tips for Eating Clean and Feeling Great",
     featureImage: "/assets/10-inner.png",
     url: "10-simple-tips-for-eating-clean-and-feeling-great",
@@ -337,9 +341,11 @@ export const blogData = [
       </>
     ),
   },
+
   {
     authorName: "Moses Ndep Mbeku",
     updateDate: "Thu Apr 04 2024",
+
     title: "The Vital Importance of Exercise",
     featureImage: "/assets/Page7-blog2.png",
     url: "the-vital-importance-of-exercise",
@@ -362,6 +368,7 @@ export const blogData = [
       </>
     ),
   },
+
   {
     authorName: "Moses Ndep Mbeku",
     updateDate: "Thu Apr 04 2024",
@@ -369,11 +376,10 @@ export const blogData = [
     featureImage: "/assets/Page7-blog3.png",
     url: "the-importance-of-eating-healthy-food",
     SubDescription:
-      "Eating healthy food is crucial for overall well-being and vitality. Nutrient-dense foods provide essential vitamins, minerals, and antioxidants that support optimal physical and mental health. A balanced diet fuels the body with energy ",
+      "Eating healthy food is crucial for overall well-being and vitality. Nutrient-dense foods provide essential vitamins, minerals, and antioxidants that support optimal physical and mental health. A balanced diet fuels the body with energy",
 
     description: (
       <>
-        <h2>Lorem, ipsum dolor.</h2>
         <p>
           Eating healthy food is crucial for overall well-being and vitality.
           Nutrient-dense foods provide essential vitamins, minerals, and

@@ -6,8 +6,10 @@ import { Montserrat } from "next/font/google";
 import GtagScript from "@/components/GtagScript";
 
 export const metadata = {
-  title: "Healthy Lifestyle Edge",
-  description: "Healthy Lifestyle Edge",
+  title:
+    "Your Source for Healthy Living Essentials: Nutrition, Fitness, and Wellness",
+  description:
+    "Discover HLE, your ultimate destination for healthy living essentials. Explore tips on nutrition, fitness, weight loss, and wellness to fuel a balanced lifestyle. Shop top-rated supplements, enjoy nutritious recipes, and embrace a healthier you today.",
 };
 
 const montserrat = Montserrat({
