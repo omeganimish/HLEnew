@@ -4,6 +4,24 @@ import "../style.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+export async function generateMetadata({ params }) {
+  const post = blogData.find((post) => post.url === params.slug);
+
+  if (!post) {
+    return {
+      title:
+        "Your Source for Healthy Living Essentials: Nutrition, Fitness, and Wellness",
+      description:
+        "Discover HLE, your ultimate destination for healthy living essentials. Explore tips on nutrition, fitness, weight loss, and wellness to fuel a balanced lifestyle. Shop top-rated supplements, enjoy nutritious recipes, and embrace a healthier you today.",
+    };
+  }
+
+  return {
+    title: post.title,
+    description: post.metaDes || post.SubDescription,
+  };
+}
+
 export async function generateStaticParams() {
   const posts = blogData;
 

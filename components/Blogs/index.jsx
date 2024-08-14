@@ -9,7 +9,9 @@ const Blog = ({ pageBlog }) => {
   return (
     <section className="bg-colorGrey">
       <div className="customContainer sectionPadding">
-        <SectionTitle text={"Our Blogs"} className={"text-center"} />
+        <h1 className="text-[26px] 2xl:text-[36px] text-black leading-[36px] 2xl:leading-[40px] font-semibold text-center">
+          Our Blogs
+        </h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
           {pageBlog
