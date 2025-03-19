@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ShareContainer from "./shareContainer";
+import FAQSection from "@/components/faqSection";
 
 const BlogDetail = ({ url }) => {
   const [data, setData] = useState();
@@ -51,6 +52,8 @@ const BlogDetail = ({ url }) => {
                 {data?.description}
               </div>
             </div>
+
+            {data?.faq && <FAQSection data={data?.faq} />}
 
             <ShareContainer data={data} />
           </div>
