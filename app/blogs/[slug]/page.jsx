@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: post.title,
+    title: post.metaDes || post.title,
     description: post.metaDes || post.SubDescription,
   };
 }

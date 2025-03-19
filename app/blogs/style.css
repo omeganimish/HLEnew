@@ -1,17 +1,33 @@
 .detailDesWrap h2 {
   color: var(--colorRedLight);
-
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
-  margin-bottom: 6px;
-  font-weight: 500;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
-.detailDesWrap p {
+.detailDesWrap h3 {
+  color: var(--colorRedLight);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.detailDesWrap a {
+  color: var(--colorRedLight);
+}
+
+.detailDesWrap p,
+.detailDesWrap ul {
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
+.detailDesWrap ul li span {
+  /* color: var(--colorRedLight);
+  font-weight: 600; */
+}
+
 .detailDesWrap img {
   float: right;
   margin: 5px;
@@ -19,8 +35,8 @@
 
 @media (min-width: 1536px) {
   .detailDesWrap h2 {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 34px;
   }
 
   .detailDesWrap p {
