@@ -4,7 +4,7 @@ const siteUrl = "https://healthylifestyleedge.com";
 
 export default function sitemap() {
   const blogs = blogData?.map(({ url, updateDate }) => ({
-    url: `${siteUrl}/${url}`,
+    url: `${siteUrl}/blogs/${url}`,
     lastModified: new Date(updateDate).toISOString(),
     changeFrequency: "monthly",
     priority: 0.8,

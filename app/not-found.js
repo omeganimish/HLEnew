@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import CTAbutton from "@/components/layout/CTAbutton";
-import Link from "next/link";
 import { FaRegFaceSadCry } from "react-icons/fa6";
 
 export default function NotFound() {
