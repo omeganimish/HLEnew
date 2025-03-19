@@ -29,11 +29,11 @@ const BlogDetail = ({ url }) => {
       <div className="customContainer">
         <div className="flex flex-col md:flex-row gap-4 lg:gap-8 2xl:gap-16">
           <div className="flex-[1.5] flex flex-col  gap-2">
-            <figure className="h-[25vh] md:h-[75vh]">
+            <figure className="h-[25vh] md:h-[55vh] ">
               <Image
                 src={data?.featureImage}
                 width={1024}
-                height={700}
+                height={900}
                 alt="feature image "
                 className="w-full h-full object-cover object-center"
               />

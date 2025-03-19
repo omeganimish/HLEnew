@@ -10,8 +10,7 @@ export const blogData = [
     metaDes:
       "Discover 7 everyday foods secretly making you fat and sabotaging weight loss. Learn why these healthy foods cause belly fat and explore better alternatives for fat loss. Stop unknowingly gaining weight—take control of your diet now!",
     title: "The 7 Foods That Are Secretly Making You Fat : You Won’t Believe",
-    featureImage:
-      "/assets/The Ultimate Guide to Building a Home Workout Routine.png",
+    featureImage: "/assets/hle_foof_fat.jpg",
     url: "the-seven-foods-that-are-secretly-making-you-fat-you-wont-believe",
     SubDescription:
       "Think you're eating healthy but still gaining weight? You are definitely not alone. Many people trying to live a healthylife unknowingly consume foods that are marketed as healthy but are packed with hidden fats, sugars, and refined carbohydrates that can secretly cause weight gain and hinder fat loss.",
