@@ -10,8 +10,7 @@ export const blogData = [
     metaDes:
       "Discover 7 everyday foods secretly making you fat and sabotaging weight loss. Learn why these healthy foods cause belly fat and explore better alternatives for fat loss. Stop unknowingly gaining weight—take control of your diet now!",
     title: "The 7 Foods That Are Secretly Making You Fat : You Won’t Believe",
-    featureImage:
-      "/assets/The Ultimate Guide to Building a Home Workout Routine.png",
+    featureImage: "/assets/hle_foof_fat.jpg",
     url: "the-seven-foods-that-are-secretly-making-you-fat-you-wont-believe",
     SubDescription:
       "Think you're eating healthy but still gaining weight? You are definitely not alone. Many people trying to live a healthylife unknowingly consume foods that are marketed as healthy but are packed with hidden fats, sugars, and refined carbohydrates that can secretly cause weight gain and hinder fat loss.",
@@ -19,7 +18,7 @@ export const blogData = [
       <>
         <h2>Introduction</h2>
         <p>
-          Think you're eating healthy but still gaining weight? You are
+          Think you&apos;re eating healthy but still gaining weight? You are
           definitely not alone. Many people trying to live a{" "}
           <Link href="https://www.healthylifestyleedge.com/blogs/the-importance-of-eating-healthy-food">
             healthylife
@@ -48,7 +47,7 @@ export const blogData = [
           </Link>{" "}
           and flavored yogurts are often marketed as healthy snacks, but most
           are packed with added sugars and oils. A small bowl of granola can
-          contain up to 400 calories and 20 grams of sugar, turning your "
+          contain up to 400 calories and 20 grams of sugar, turning your &quot;
           <Link
             href={
               "https://www.healthylifestyleedge.com/blogs/10-simple-tips-for-eating-clean-and-feeling-great"
@@ -56,8 +55,8 @@ export const blogData = [
           >
             healthy breakfast
           </Link>
-          " into a dessert. Similarly, many popular flavored yogurts contain
-          more sugar than a candy bar.
+          &quot; into a dessert. Similarly, many popular flavored yogurts
+          contain more sugar than a candy bar.
         </p>
 
         <ul>
@@ -149,7 +148,7 @@ export const blogData = [
             <b>Why It’s Making You Fat</b>
           </li>
           <li>
-            <span>+</span> Liquid calories don't make you feel full.
+            <span>+</span> Liquid calories don&apos;t make you feel full.
           </li>
           <li>
             <span>+</span> Fruit juices lack fiber, causing sugar overload.
