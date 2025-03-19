@@ -3,6 +3,7 @@ import { blogData } from "@/lib/blogData";
 import "../style.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const post = blogData.find((post) => post.url === params.slug);
@@ -24,15 +25,29 @@ export async function generateMetadata({ params }) {
 
 export async function generateStaticParams() {
   const posts = blogData;
+  console.log(
+    "Generated Static Params:",
+    posts.map((post) => post.url)
+  );
 
   return posts.map((post) => ({
     slug: post.url,
   }));
 }
 
-export const dynamicParams = false; // true | false,
-export const revalidate = 0;
+// export const dynamicParams = false;
+// export const revalidate = 0;
 export default function BlogDetailPage({ params }) {
+  console.log(params, "params");
+
+  const post = blogData.find((p) => p.url === params.slug);
+
+  // If post not found, Next.js will automatically render the 404 page
+  if (!post) {
+    notFound(); // This will trigger the 404 page automatically
+    return null; // Just return null, but not needed with `notFound()`
+  }
+
   return (
     <div>
       <Header />
