@@ -19,7 +19,7 @@ export const blogData = [
       <>
         <h2>Introduction</h2>
         <p>
-          Think you're eating healthy but still gaining weight? You are
+          Think you&apos;re eating healthy but still gaining weight? You are
           definitely not alone. Many people trying to live a{" "}
           <Link href="https://www.healthylifestyleedge.com/blogs/the-importance-of-eating-healthy-food">
             healthylife
@@ -48,7 +48,7 @@ export const blogData = [
           </Link>{" "}
           and flavored yogurts are often marketed as healthy snacks, but most
           are packed with added sugars and oils. A small bowl of granola can
-          contain up to 400 calories and 20 grams of sugar, turning your "
+          contain up to 400 calories and 20 grams of sugar, turning your &quot;
           <Link
             href={
               "https://www.healthylifestyleedge.com/blogs/10-simple-tips-for-eating-clean-and-feeling-great"
@@ -56,8 +56,8 @@ export const blogData = [
           >
             healthy breakfast
           </Link>
-          " into a dessert. Similarly, many popular flavored yogurts contain
-          more sugar than a candy bar.
+          &quot; into a dessert. Similarly, many popular flavored yogurts
+          contain more sugar than a candy bar.
         </p>
 
         <ul>
@@ -149,7 +149,7 @@ export const blogData = [
             <b>Why It’s Making You Fat</b>
           </li>
           <li>
-            <span>+</span> Liquid calories don't make you feel full.
+            <span>+</span> Liquid calories don&apos;t make you feel full.
           </li>
           <li>
             <span>+</span> Fruit juices lack fiber, causing sugar overload.
