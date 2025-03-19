@@ -31,7 +31,6 @@ jobs:
       - name: Build and Export Next.js
         run: |
           npm run build
-          npm run export
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
